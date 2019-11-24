@@ -25,7 +25,7 @@ public class App {
 		if (firstArg.equals(null) || firstArg.isEmpty()) {
 			firstArg = "";
 			
-			//worker("C:\\Users\\Povilas\\Desktop\\Lorem Ipsum");
+			worker("C:\\Users\\Povilas\\Desktop\\Lorem Ipsum");
 			
 			System.exit(0);
 		} else {
@@ -92,8 +92,7 @@ public class App {
 				notExcludedWords = notExcludedWords+count.get(i);
 			} else {
 				util.writeFile(inputDirs + resultDirs + "\\",
-						"exclude_FILE" + countedWords.get(i).substring(0, 1).toUpperCase(),
-						countedWords.get(i) + " " + count.get(i));
+						"results",	countedWords.get(i) + " " + count.get(i));
 				excludedWords = excludedWords + count.get(i);
 			}
 		}
