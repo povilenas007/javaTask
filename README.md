@@ -1,5 +1,10 @@
 # javaTask
-Java task, to calculate occurence of words in files, and output results
+Java task, to calculate occurence of words in files, and output results in result files.
 
 
-execute program by: java -jar javaTask.jar "work dir where your input .txt and exclude.txt is located"
+# instructions
+
+Download as a zip.
+Extract contents, and import as maven project.
+Export .jar file
+Execute program by: java -jar javaTask.jar "work dir where your input .txt and exclude.txt is located"
