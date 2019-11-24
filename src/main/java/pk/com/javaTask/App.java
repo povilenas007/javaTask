@@ -25,8 +25,6 @@ public class App {
 		if (firstArg.equals(null) || firstArg.isEmpty()) {
 			firstArg = "";
 			
-			worker("C:\\Users\\Povilas\\Desktop\\Lorem Ipsum");
-			
 			System.exit(0);
 		} else {
 			worker(firstArg);
